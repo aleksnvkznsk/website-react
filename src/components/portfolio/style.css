@@ -1,0 +1,75 @@
+.content {
+    text-align: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    scroll-margin-top: 70px;
+}
+
+button {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    margin: 0 30px;
+    border: none;
+    font-size: 24px;
+    background-color: white;
+    color: gray;
+}
+
+.btn:hover {
+    color: black;
+}
+
+.individual,
+.lovestory,
+.wedding {
+    margin: 0;
+}
+
+.lovestory {
+    display: none;
+}
+
+.individual {
+    display: none;
+}
+
+.commercial {
+    display: none;
+}
+
+.photo {
+    margin: 0;
+    width: 600px;
+}
+
+
+
+@media (max-width: 900px) {
+
+    .content {
+        scroll-margin-top: 90px;
+    }
+
+    .photo {
+        width: 300px;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: column;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .mini,
+    .standart,
+    .maxi,
+    .premium {
+        margin: 15px;
+        border-radius: 10px;
+    }
+}
