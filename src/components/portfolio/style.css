@@ -23,28 +23,6 @@ button {
     color: black;
 }
 
-.individual,
-.lovestory,
-.wedding {
-    margin: 0;
-}
-
-.lovestory {
-    display: none;
-}
-
-.individual {
-    display: none;
-}
-
-.commercial {
-    display: none;
-}
-
-.photo {
-    margin: 0;
-    width: 600px;
-}
 
 
 

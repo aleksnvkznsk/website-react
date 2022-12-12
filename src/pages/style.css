@@ -1,0 +1,13 @@
+
+.wedding,
+.lovestory,
+.commercial,
+.individual {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.photo {
+    margin: 0;
+    width: 600px;
+}
