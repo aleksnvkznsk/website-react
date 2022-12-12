@@ -11,3 +11,20 @@
     margin: 0;
     width: 600px;
 }
+
+@media (max-width: 1200px)
+{
+    .photo{
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 900px)
+{
+    .photo{
+        display: flex;
+        width: 450px;
+        margin: 0 auto;
+    }
+}

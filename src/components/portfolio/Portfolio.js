@@ -1,7 +1,13 @@
 import "./style.css";
 import { NavLink } from "react-router-dom";
 
+
+
+
+
+
 function Portfolio() {
+
     return (
         <div id="pоrtfolio" className="content">
             <div className="button">

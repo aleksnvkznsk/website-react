@@ -5,7 +5,7 @@
     scroll-margin-top: 70px;
 }
 
-button {
+.button {
     margin: 0 auto;
     padding-bottom: 20px;
 }
@@ -24,30 +24,9 @@ button {
 }
 
 
-
-
-@media (max-width: 900px) {
-
-    .content {
-        scroll-margin-top: 90px;
-    }
-
-    .photo {
-        width: 300px;
-    }
-
-    .price {
+@media (max-width: 600px) {
+    .button {
         display: flex;
         flex-direction: column;
-        background-size: cover;
-        margin: 0 auto;
-    }
-
-    .mini,
-    .standart,
-    .maxi,
-    .premium {
-        margin: 15px;
-        border-radius: 10px;
     }
 }
